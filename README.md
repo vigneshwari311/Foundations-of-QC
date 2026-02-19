@@ -1,1 +1,1 @@
-# Quantum-Learning
+# Foundations of QC
