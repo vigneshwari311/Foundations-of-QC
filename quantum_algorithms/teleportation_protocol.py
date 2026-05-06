@@ -31,3 +31,14 @@ def create_teleportation_circuit():
 
 teleportation_circuit = create_teleportation_circuit()
 print(teleportation_circuit.draw(output='text'))
+
+
+
+
+
+
+
+
+
+
+
