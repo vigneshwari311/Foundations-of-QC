@@ -1,22 +1,53 @@
-# Quantum Computing Journey & Implementations
+# Quantum Computing Implementation - Qiskit
 
-This repository serves as a comprehensive record of my transition into Quantum Information Science. It documents my daily progress, from fundamental linear algebra and gate operations to the implementation of quantum protocols using **Qiskit**.
+A collection of quantum computing implementations and experiments built using **Qiskit**, covering quantum algorithms, quantum information protocols, noise modeling, quantum hardware analysis, and error correction.
+
+This repository showcases practical work in Quantum Information Science with a focus on both theoretical foundations and real-world quantum hardware constraints.
+
+---
 
 ## 📂 Repository Structure
 
 ### 🛠️ [Foundations](./foundations)
-* **Duration:** 60+ Days of Daily Learning.
-* **Focus:** Core concepts of Quantum Mechanics and Qiskit.
-* **Topics Covered:**
-    * Single and Multi-qubit gate operations.
-    * Statevector and Unitary simulations.
-    * Bloch Sphere visualizations.
-    * Understanding noise models and FakeProvider.
+
+**Focus:** Core concepts of Quantum Computing, Quantum Information Science, and Qiskit.
+
+**Topics Covered:**
+
+* Single and multi-qubit gate operations
+* Statevector and unitary simulations
+* Bloch sphere visualizations
+* Bell states and entanglement
+* Noise models and FakeProvider
+* IBM Quantum backends
+* T1/T2 coherence analysis
+* Circuit transpilation and optimization
+* Quantum error correction fundamentals
+* Quantum arithmetic and custom circuit design
 
 ### 🧪 [Quantum Algorithms](./quantum_algorithms)
-A curated library of fundamental quantum algorithms and protocols implemented from scratch.
-* **Quantum Teleportation:** Demonstrating state transfer using Bell pairs and classical feedback.
-* **Deutsch-Jozsa:** A demonstration of quantum parallelism and exponential speedup for constant vs. balanced functions.
-* *(Ongoing)*: Bernstein-Vazirani algorithm and Quantum Fourier Transform (QFT).
+
+A collection of quantum algorithms and information protocols implemented using Qiskit.
+
+**Implemented Protocols & Algorithms:**
+
+* Quantum Teleportation
+* Superdense Coding
+* CHSH Inequality
+* Deutsch–Jozsa Algorithm
+* Bernstein–Vazirani Algorithm
+* Quantum Fourier Transform (QFT)
+* Grover Search
+* Shor's 9-Qubit Error Correction Code
+* Quantum Adder
 
 ---
+
+## 🛠️ Tech Stack
+
+* Python
+* Qiskit
+* IBM Quantum
+* Qiskit Aer
+* NumPy
+* Matplotlib
